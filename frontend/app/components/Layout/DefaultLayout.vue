@@ -40,7 +40,7 @@
             >
               {{ $globals.icons.createAlt }}
             </v-icon>
-            {{ $t("general.create") }}
+            Add Recipe
           </v-btn>
         </template>
         <v-list
@@ -215,7 +215,7 @@ const createLinks = computed(() => [
   {
     insertDivider: true,
     icon: $globals.icons.edit,
-    title: i18n.t("general.create"),
+    title: i18n.t("recipe.create-recipe"),
     subtitle: i18n.t("new-recipe.create-manually"),
     to: `/g/${groupSlug.value}/r/create/new`,
     restricted: true,
